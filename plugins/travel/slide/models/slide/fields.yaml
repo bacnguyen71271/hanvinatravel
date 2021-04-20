@@ -1,0 +1,18 @@
+fields:
+    title:
+        label: 'Tiêu đề'
+        span: auto
+        type: text
+    price:
+        label: Giá
+        span: auto
+        type: text
+    link:
+        label: 'Đường dẫn'
+        span: full
+        type: text
+    image:
+        label: Ảnh
+        mode: image
+        span: auto
+        type: mediafinder

@@ -1,0 +1,4 @@
+title: Setting
+modelClass: Travel\Trangchu\Models\Setting
+toolbar:
+    buttons: reorder_toolbar

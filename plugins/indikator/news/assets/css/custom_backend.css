@@ -1,0 +1,3 @@
+.hasagi .list-checkbox .custom-checkbox label:before {
+    display: none !important;
+}

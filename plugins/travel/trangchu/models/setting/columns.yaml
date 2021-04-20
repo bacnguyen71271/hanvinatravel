@@ -1,0 +1,20 @@
+columns:
+    name:
+        label: 'Tên Trang Web'
+        type: text
+        searchable: true
+        sortable: true
+    phone:
+        label: 'Điện thoại di động'
+        type: text
+        searchable: true
+        sortable: true
+    homephone:
+        label: 'Điện thoại bàn'
+        type: text
+    address:
+        label: 'Địa chỉ'
+        type: text
+    info:
+        label: 'Giới Thiệt'
+        type: text

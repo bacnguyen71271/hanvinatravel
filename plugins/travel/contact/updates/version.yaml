@@ -1,0 +1,8 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table travel_contact_'
+    - builder_table_create_travel_contact_.php
+1.0.3:
+    - 'Updated table travel_contact_'
+    - builder_table_update_travel_contact_.php

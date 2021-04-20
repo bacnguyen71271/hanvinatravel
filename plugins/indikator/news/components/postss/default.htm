@@ -1,0 +1,70 @@
+{% set tagpost = __SELF__.tagpost %}
+<section class="breadcrumb-outer text-center">
+    <div class="container">
+        <div class="breadcrumb-content">
+            <h2>{{post.title | raw}}</h2>
+            <nav aria-label="breadcrumb">
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="{{'homepage' | page}}">Home</a></li>
+                    <li class="breadcrumb-item"><a href="{{'news' | page}}">Tin tức</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Chi tiết bài viết</li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="section-overlay"></div>
+</section>
+<section class="item-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="item-wrapper">
+                    <div class="cover-content">
+                        
+                        <h2>{{ html_strip(post.title | raw)}}</h2>
+                        <div class="author-detail">
+                            <span><a href="#"><i class="fa fa-clock-o"></i> Ngày đăng : {{ post.created_at|date('d/m') }}</a></span>
+                        </div>
+                    </div>
+                    <div class="cover-image">
+                        <img src=" {{ post.image |  media }}" alt="Image">
+                    </div>
+                    <div class="item-detail">
+                        {{ post.content | raw }}
+                    </div>
+                    <div class="related-posts">
+                        <div class="row">
+                            {%for tagposts in tagpost%}
+                            <div class="col-sm-6 col-xs-12">
+                                <div class="blog-item">
+                                    <div class="blog-image">
+                                        <img height="270px" src="{{tagposts.image | media}}" alt="Image">
+                                    </div>
+                                    <div class="blog-content">
+                                        <div class="blog-date">
+                                            <p><i class="fa fa-clock-o"></i> Ngày đăng : {{tagposts.create_at|date('d/m')}}</p>
+                                        </div>
+                                        <h3><a href="{{ 'posts' | page({slug:tagposts.slug}) }}">{{html_limit(tagposts.title,40) | raw }}</a></h3>
+                                        {{html_limit(tagposts.introductory,38) | raw}}
+                                    </div>
+                                </div>
+                            </div>
+                            {% endfor %}
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="sidebar-sticky" class="col-md-4 col-sm-12">
+                <aside class="detail-sidebar sidebar-wrapper">
+                    <div class="item-sidebar">
+                        <!-- tin mới -->
+                          {% partial 'site/recent-post' %}
+                        <!-- tin nổi bật -->
+                          {% partial 'site/popular-post' %}
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </div>
+</section>

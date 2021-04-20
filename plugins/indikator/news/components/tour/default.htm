@@ -1,0 +1,134 @@
+<section class="breadcrumb-outer text-center">
+    <div class="container">
+        <div class="breadcrumb-content">
+            <h1 style="    text-transform: uppercase;"> {{__SELF__.tour.title|raw}}</h1>
+            <nav aria-label="breadcrumb">
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="{{'homepage' | page}}">Trang chủ</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Chi tiết</li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="section-overlay"></div>
+</section>
+<!-- BreadCrumb Ends -->
+
+<section class="main-content detail">
+    <div class="container">
+        <div class="row">
+            <div id="content" class="col-md-8">
+                <div class="detail-content content-wrapper">   
+                    <div class="detail-info">
+                        <div class="detail-info-content clearfix">
+                            <h2>{{__SELF__.tour.title|raw}}</h2>
+                            <div class="deal-rating">
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery detail-box">
+                        <!-- Paradise Slider -->
+                        <div id="in_th_030" class="carousel slide in_th_brdr_img_030 thumb_scroll_x swipe_x ps_easeOutQuint" data-ride="carousel" data-pause="hover" data-interval="4000" data-duration="2000">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                {% for key, photo in __SELF__.tour.photos %}
+                                <li data-target="#in_th_030" data-slide-to="{{key}}" {% if key == 0 %} class="active" {% endif %}>
+                                    <!-- 1st Indicator Image -->
+                                    <img height="100px" src="{{photo.getPath()}}" />
+                                </li>
+                                {% endfor %}
+                            </ol> <!-- /Indicators -->
+                            <!-- Wrapper For Slides -->
+                            <div class="carousel-inner" role="listbox">
+                                {% for key, photo in __SELF__.tour.photos %}
+                                <div class="item {% if key == 0 %} active {% endif %}">
+                                    <!-- Slide Background -->
+                                    <img src="{{photo.getPath()}}" alt="in_th_030_01" />                                        
+                                </div>
+                                {% endfor %}
+                            </div> <!-- End of Wrapper For Slides -->
+                        </div> <!-- End Paradise Slider -->
+                    </div>
+                    
+                    {{__SELF__.tour.content|raw}}
+                
+                    <div class="location-map detail-box">
+                        <div class="detail-title">
+                            <h3>Địa Chỉ Công Ty</h3>
+                        </div>
+                        <div class="map-frame">
+                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.8345711138827!2d105.85127891440693!3d20.999267394161542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ad7487f02633%3A0x6cbc72c99d36aab7!2sHANVINA%20TRAVEL!5e0!3m2!1sen!2s!4v1587652171884!5m2!1sen!2s" width="100%" height="auto" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        </div>
+                    </div>
+                    <div class="share-buttons">
+                            <a target="_blank" href="https://www.facebook.com/hanvinatravel" class="btn-large btn-facebook"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a>
+                            <p> <span>350</span> shares</p>
+                            <a target="_blank" href="https://www.instagram.com/hanvina_travel/?fbclid=IwAR0gGFnwF8WJeb6Nj0UNaTg1jwAfZOnIz5ahUl4pD26ToqTX4XZ9O7Xbx1A" class="btn-large btn-twitter"><i class="fa fa-instagram" aria-hidden="true"></i> instagram </a>
+                    </div>
+                </div>
+            </div>
+            <div id="sidebar-sticky" class="col-md-4">
+                <aside class="detail-sidebar sidebar-wrapper">
+                    <div class="sidebar-item sidebar-item-dark">
+                        <div class="detail-title">
+                            <h3>NHẬN TƯ VẤN MIỄN PHÍ:</h3>
+                        </div>
+                        <form class="form_contact">
+                            <div class="row">
+                                <div class="form-group col-xs-12">
+                                    <input type="text" name="name" class="form-control" id="f_name" placeholder="Họ tên">
+                                </div>
+                                <div class="form-group col-xs-6">
+                                    <input type="email" name="email" class="form-control" id="f_email" placeholder="Email">
+                                </div>
+                                <div class="form-group col-xs-6 col-left-padding">
+                                   <input type="text" name="phone" class="form-control" id="f_phone" placeholder="Số điện thoại">
+                                </div>
+                                <div class="textarea col-xs-12">
+                                   <textarea name="content" id="f_content" placeholder="Ghi chú"></textarea>
+                                </div>
+                                
+                                    
+                                <div class="col-xs-12">
+                                    <div class="comment-btn">
+                                        <input type="submit" class="btn-blue btn-red" value="Đặt ngay">
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="sidebar-item">
+                        <div class="detail-title">
+                            <h3>Liên quan</h3>
+                        </div>
+                        <div class="sidebar-content sidebar-slider">
+                            {% for related in __SELF__.tourRelateds %}
+                            <div class="sidebar-package">
+                                <div class="sidebar-package-image">
+                                    <img height="270px" src="{{related.image |  media}}" alt="Images">
+                                </div>
+                                <div class="destination-content sidebar-package-content">
+                                    <h4><a href="{{ 'details-tour' | page({'slug': related.slug})}}">{{html_limit(related.title,60)}}</a></h4>
+                                    
+                                    <p><span>{{related.price|number_format}}</span>/KHÁCH </p>
+                                    <a href="{{ 'details-tour' | page({'slug': related.slug})}}" class="btn-blue btn-red">Xem Thêm</a>
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div class="sidebar-item sidebar-helpline">
+                        <div class="sidebar-helpline-content">
+                            <h3>THÔNG TIN LIÊN HỆ</h3>
+                                <p>Số 10 phố Chùa Quỳnh, phường Quỳnh Lôi, quận Hai Bà Trưng, Hà Nội.</p>
+                                <p><i class="fa fa-phone"></i>(0243).62.72.777   </p>                  
+                                <p><i class="fa fa-mobile"></i>&nbsp;&nbsp;0912.944.666 </p>   
+                                <p><i class="fa fa-envelope"></i> <a href="mailto:info@hanvinatravel.com" class="__cf_email__">info@hanvinatravel.com</a></p>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </div>
+</section>

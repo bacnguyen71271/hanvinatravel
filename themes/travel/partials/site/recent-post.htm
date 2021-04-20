@@ -1,0 +1,18 @@
+<div class="recent-post clearfix sidebar-item">
+                            <div class="detail-title">
+                                <h3>Tin mới nhất</h3>
+                            </div>
+                            {% for recent in postfornews %}
+                            <div class="recent-item">
+                                <div class="recent-image">
+                                    <img src="{{recent.image | media}}" alt="Image">
+                                </div>
+                                <div class="recent-content">
+                                    <h4><a href="{{ 'posts' | page({slug:recent.slug}) }}">{{html_limit(recent.title,40)}}</a></h4>
+                                    <div class="author-detail">
+                                        <p><i class="fa fa-clock-o"></i> {{ recent.created_at|date('d/m') }} </p>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endfor%}
+                        </div>

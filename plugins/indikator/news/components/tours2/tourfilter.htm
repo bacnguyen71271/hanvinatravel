@@ -1,0 +1,34 @@
+
+{% for post in posts %}
+<div class="col-md-4 col-sm-6 category-tour">
+    <div class="package-item">
+        <div class="package-image">
+            <img  height="270px" src="{{post.image | media}}" alt="Image">
+            
+        </div>
+        <div class="package-content">
+            <h3>{{html_limit(post.title,60)}}</h3>
+            {{html_limit(post.introductory,50)}}
+            <div class="package-price">
+                    <p><span>{{post.price|number_format}}</span>VND/KHÁCH </p>
+                </div>
+            <div class="package-info">
+                <a href="{{page|page({'slug': post.slug})}}" class="btn-blue btn-red">Xem chi tiết</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
+{% if totalPage > 1 %}
+<div class="col-md-12">
+    <div class="pagination-content">
+        <ul class="pagination">
+            <li {% if 1 == perPage %} class="disabled" {% endif %}><span data-page="{{perPage - 1}}">«</span></li>
+            {% for i in 1 .. totalPage %}
+            <li {% if i == perPage %} class="active not-disable" {% endif %} data-page="{{i}}"><span data-page="{{i}}">{{i}}</span></li>
+            {% endfor %}
+            <li {% if totalPage == perPage %} class="disabled" {% endif %}><span data-page="{{perPage + 1}}">»</span></li>
+        </ul>
+    </div> 
+</div>
+{% endif %}

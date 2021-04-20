@@ -1,0 +1,108 @@
+title = "Trang chủ"
+url = "/"
+layout = "home"
+is_hidden = 0
+[slides]
+[homePageComboTours]
+
+[homePageTours]
+==
+<!-- Banner -->
+<section id="home_banner">
+    <!-- Paradise Slider -->
+    <div id="kenburns_061" class="carousel slide ps_indicators_txt_icon ps_control_txt_icon kbrns_zoomInOut thumb_scroll_x swipe_x ps_easeOutQuart" data-ride="carousel" data-pause="hover" data-interval="10000" data-duration="2000">
+        <!-- Wrapper For Slides -->
+        <div class="carousel-inner" role="listbox">
+
+            <!-- First Slide -->
+            {%for key,slide2 in  slides %}
+                <div class="item {{key == 0 ? 'active' : ''}}">
+                    <!-- Slide Background -->
+                    <img src="{{slide2.image | media}}" alt="kenburns_061_01" />
+                    <!-- Left Slide Text Layer -->
+                    <div class="kenburns_061_slide" data-animation="animated fadeInRight">
+                        <h2>{{slide2.title}}</h2>
+                        <h1>{{slide2.price}}</h1>
+
+                        <a href="{{slide2.link}}" target="_blank" class="btn-blue btn-red">Xem chi tiết</a>
+                    </div>
+                    <!-- /Left Slide Text Layer -->
+                </div>
+            {% endfor %}
+
+        </div>
+        <!-- End of Wrapper For Slides -->
+
+
+    </div>
+    <!-- End Paradise Slider -->
+</section>
+<!-- Banner Ends -->
+
+
+<!-- Popular Packages -->
+<!-- home page combotour -->
+{% component 'homePageComboTours' %}
+<!-- Popular Packages Ends -->
+
+<!-- Deals -->
+<!-- home page tour -->
+{% component 'homePageTours' %}
+<!-- Deals Ends -->
+
+
+<!-- Deals On Sale -->
+
+<!-- Deals On Sale Ends -->
+
+
+
+<!-- Blog -->
+<section class="popular-packages">
+    <div class="container">
+        <div class="section-title text-center">
+            <h2>TIN TỨC</h2>
+            <div class="section-icon">
+               <img src="{{ 'assets/image/hanvina.png' | theme }}" class="section-icon-img"/>
+            </div>
+
+        </div>
+        <div class="row package-slider slider-button">
+                  {% for homepages in newshomepage %}
+            <div class="col-sm-4">
+                <div class="package-item">
+                    <div class="package-image">
+                        <img height="270px" src="{{homepages.image|media}}" alt="Image">
+                       
+                    </div>
+                    <div class="package-content">
+                        <h3><a href="{{ 'posts' | page({slug:homepages.slug}) }}">{{ html_strip(homepages.title | raw)}}</a></h3>
+                        <p>{{html_limit(homepages.introductory,25 )}}</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <span class="txt-alg-center">
+        <div class="price-btn">
+            <a href="{{'news' | page}}" class="btn-blue-border">Xem thêm</a>
+        </div>
+    </span>
+</section>
+<!-- Blog Ends -->
+
+<!-- Countdown -->
+<section class="countdown-section">
+    <div class="container">
+        <div class="countdown-title">
+            <h2> Những thông tin mà Quý khách đang nhìn thấy là tất cả <span>tâm huyết</span> và sự <span>chân thành</span> của chúng tôi !</h2> 
+            <p>Cảm ơn Quý khách đã lựa chọn HanVina Travel.</p>
+        </div>
+    </div>
+    <div class="testimonial-overlay"></div>
+</section>
+<!-- Countdown Ends -->
+<!-- Footer -->
+
+<!-- Back to top ends -->

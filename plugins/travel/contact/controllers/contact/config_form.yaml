@@ -1,0 +1,10 @@
+name: Contact
+form: $/travel/contact/models/contact/fields.yaml
+modelClass: Travel\Contact\Models\Contact
+defaultRedirect: travel/contact/contact
+create:
+    redirect: 'travel/contact/contact/update/:id'
+    redirectClose: travel/contact/contact
+update:
+    redirect: travel/contact/contact
+    redirectClose: travel/contact/contact

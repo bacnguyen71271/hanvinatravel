@@ -1,0 +1,14 @@
+fields:
+    title:
+        label: 'Tiêu đề'
+        span: auto
+        type: text
+    highlight:
+        label: 'Điểm nhấn'
+        span: auto
+        type: text
+    content:
+        label: 'Nội dung'
+        size: giant
+        span: full
+        type: richeditor

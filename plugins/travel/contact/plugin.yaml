@@ -1,0 +1,11 @@
+plugin:
+    name: 'travel.contact::lang.plugin.name'
+    description: 'travel.contact::lang.plugin.description'
+    author: Travel
+    icon: oc-icon-cart-plus
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Contact
+        url: travel/contact/contact
+        icon: icon-shopping-cart

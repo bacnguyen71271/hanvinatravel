@@ -1,0 +1,19 @@
+columns:
+    id:
+        label: id
+        type: number
+        searchable: true
+        sortable: true
+    image:
+        label: Ảnh
+        type: partial
+        path: ~/plugins/travel/slide/models/slide/_image.htm
+    title:
+        label: 'Tiêu đề'
+        type: text
+    price:
+        label: Giá
+        type: text
+    link:
+        label: 'Đường dẫn'
+        type: text

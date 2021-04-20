@@ -1,0 +1,4 @@
+title: Slide
+modelClass: Travel\Slide\Models\Slide
+toolbar:
+    buttons: reorder_toolbar

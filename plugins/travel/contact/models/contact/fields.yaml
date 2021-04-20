@@ -1,0 +1,17 @@
+fields:
+    name:
+        label: 'Họ tên'
+        span: auto
+        type: text
+    phone:
+        label: 'Số điện thoại'
+        span: auto
+        type: text
+    email:
+        label: Email
+        span: auto
+        type: text
+    content:
+        label: 'Ghi chú'
+        span: auto
+        type: text

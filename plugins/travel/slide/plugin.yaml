@@ -1,0 +1,11 @@
+plugin:
+    name: 'travel.slide::lang.plugin.name'
+    description: 'travel.slide::lang.plugin.description'
+    author: Travel
+    icon: oc-icon-image
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'Slide Trang Chủ'
+        url: travel/slide/slide
+        icon: icon-life-ring

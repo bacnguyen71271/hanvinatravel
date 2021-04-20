@@ -1,0 +1,60 @@
+{% set listcustomer = __SELF__.listcustomer %}
+
+<section class="breadcrumb-outer text-center">
+    <div class="container">
+        <div class="breadcrumb-content">
+            <h2>KHÁCH HÀNG</h2>
+            <nav aria-label="breadcrumb">
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="{{'homepage' | page}}">Trang chủ</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Khách hàng</li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="section-overlay"></div>
+</section>
+<section class="blog-list grid-list">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-sm-12">
+                <div class="blog-wrapper">
+                    {% for customer in listcustomer %}
+                        <div class="blog-item grid-item">
+                            <div class="row">
+                                <div class="col-sm-5 col-xs-12">
+                                    <div class="blog-image">
+                                        <img src="{{customer.image | media}}" alt="Image">
+                                    </div>
+                                </div>
+                                <div class="col-sm-7 col-xs-12">
+                                    <div class="blog-content">
+
+                                        <h3><a href="{{ 'details-customer' | page({slug:customer.slug}) }}">{{customer.title | raw}}</a></h3>
+                                       <div class="blog-date"><p><i class="fa fa-clock-o"></i> Ngày đăng : {{ customer.created_at|date('d/m/Y') }} </p></div>
+                                        <p>{{html_limit(customer.introductory,200)}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor%}
+                </div>
+                <div class="col-sm-12">
+                    <div class="pagination-content">
+                        {{ listcustomer.render|raw }}
+                    </div>
+                </div>
+            </div>
+            <div id="sidebar-sticky" class="col-md-4 col-sm-12">
+                <aside class="detail-sidebar sidebar-wrapper">
+                    <div class="item-sidebar">
+                        <!-- tin mới -->
+                          {% partial 'site/recent-post' %}
+                        <!-- tin nổi bật -->
+                          {% partial 'site/popular-post' %}
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </div>
+</section>

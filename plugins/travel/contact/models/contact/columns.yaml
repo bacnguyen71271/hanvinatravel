@@ -1,0 +1,30 @@
+columns:
+    id:
+        label: ID
+        type: number
+        searchable: true
+        sortable: true
+    name:
+        label: 'Họ tên'
+        type: text
+        searchable: true
+        sortable: true
+    email:
+        label: Email
+        type: text
+        sortable: true
+    phone:
+        label: 'Số điện thoại'
+        type: text
+        searchable: true
+        sortable: true
+    content:
+        label: 'Ghi chú'
+        type: text
+    created_at:
+        label: Ngày Đăng ký
+        searchable: true
+        invisible: true
+        type: datetime
+        type: datetime
+        format: d-m-Y

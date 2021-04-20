@@ -1,0 +1,15 @@
+<div class="popular-post sidebar-item">
+                            <div class="detail-title">
+                                <h3>Tin nổi bật</h3>
+                            </div>
+                            {% for key,popular in listrecents %}
+                            <div class="popular-item">
+                                <div class="popular-content">
+                                    <span class="item-no">{{key + 1}}</span>
+                                    <h4><a href="{{ 'posts' | page({slug:popular.slug}) }}">{{html_limit(popular.title,40)}}</a></h4> 
+                                    <div class="author-detail"><p><i class="fa fa-clock-o"></i>{{ popular.created_at|date('d/m') }} </p>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>

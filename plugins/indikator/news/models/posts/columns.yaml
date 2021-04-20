@@ -1,0 +1,87 @@
+# ===================================
+#  Column Definitions
+# ===================================
+
+columns:
+
+    id:
+        label: indikator.news::lang.form.id
+        invisible: true
+
+    image:
+        label: Ảnh nền
+        sortable: false
+        clickable: false
+        invisible: true
+        type: partial
+        path: ~/plugins/indikator/news/models/posts/_image.htm
+
+    title:
+        label: Tiêu đề bài viết
+        searchable: true
+
+    # slug:
+    #     label: indikator.news::lang.form.slug
+    #     searchable: true
+    #     invisible: true
+
+    category:
+        label: Danh mục cha
+        sortable: false
+        invisible: true
+        type: partial
+        path: ~/plugins/indikator/news/models/posts/_category.htm
+
+    tags:
+        label: indikator.news::lang.form.tags
+        sortable: false
+        invisible: true
+        type: partial
+        path: ~/plugins/indikator/news/models/posts/_tags.htm
+
+    author:
+        label: Người tạo
+        sortable: false
+        invisible: true
+        type: partial
+        path: ~/plugins/indikator/news/models/posts/_author.htm
+
+    statistics:
+        label: Lượt xem
+
+    # length:
+    #     label: D
+    #     sortable: false
+    #     type: partial
+    #     path: ~/plugins/indikator/news/models/posts/_length.htm
+
+    featured:
+        label: Tin nổi bật
+        sortable: false
+        invisible: true
+        type: partial
+        path: ~/plugins/indikator/news/models/posts/_featured.htm
+
+
+    # stat:
+    #     label: indikator.news::lang.menu.statistics
+    #     sortable: false
+    #     clickable: false
+    #     type: partial
+    #     path: ~/plugins/indikator/news/models/posts/_stat.htm
+
+    status:
+        label: Trạng thái
+        sortable: false
+        type: partial
+        path: ~/plugins/indikator/news/models/posts/_status.htm
+
+
+    created_at:
+        label: Ngày tạo
+        searchable: true
+        invisible: true
+        type: datetime
+        type: datetime
+        format: d-m-Y
+

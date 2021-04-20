@@ -1,0 +1,13 @@
+<?php
+
+$text = [
+    1 => 'Có',
+    2 => 'Không'
+];
+
+$class = [
+    1 => 'text-info',
+    2 => ''
+];
+
+echo '<span class="oc-icon-circle '.$class[$record->featured].'">'.Lang::get($text[$record->featured]).'</span>';

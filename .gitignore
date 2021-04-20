@@ -1,0 +1,11 @@
+.DS_Store
+*.log
+.htaccess
+.vscode/
+.idea/
+composer.lock
+/config/app.php
+/config/database.php
+/storage/
+/vendor/
+.phpintel/

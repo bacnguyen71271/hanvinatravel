@@ -1,0 +1,70 @@
+# ===================================
+#  Column Definitions
+# ===================================
+
+columns:
+
+    id:
+        label: indikator.news::lang.form.id
+        invisible: true
+
+    image:
+        label: Ảnh
+        sortable: false
+        clickable: false
+        invisible: true
+        type: partial
+        path: ~/plugins/indikator/news/models/categories/_image.htm
+
+    name:
+        label: Tên Danh mục cha
+        searchable: true
+
+    # slug:
+    #     label: indikator.news::lang.form.slug
+    #     searchable: true
+    #     invisible: true
+
+    # sort_order:
+    #     label: indikator.news::lang.button.reorder
+    #     invisible: true
+    #     align: center
+
+    posts:
+        label: Tổng Bài viết
+        sortable: false
+        type: partial
+        path: ~/plugins/indikator/news/models/categories/_posts.htm
+        align: center
+
+    # subscribers:
+    #     label: indikator.news::lang.menu.subscribers
+    #     sortable: false
+    #     type: partial
+    #     path: ~/plugins/indikator/news/models/categories/_subscribers.htm
+    #     align: center
+
+    # hidden:
+    #     label: indikator.news::lang.form.hidden
+    #     sortable: false
+    #     type: partial
+    #     path: ~/plugins/indikator/news/models/categories/_hidden.htm
+
+    # status:
+    #     label: indikator.news::lang.form.status
+    #     sortable: false
+    #     type: partial
+    #     path: ~/plugins/indikator/news/models/posts/_status.htm
+
+    created_at:
+        label: Ngày tạo
+        searchable: true
+        invisible: true
+        type: datetime
+        format: d-m-Y
+
+    # updated_at:
+    #     label: indikator.news::lang.form.updated_at
+    #     searchable: true
+    #     invisible: true
+    #     type: datetime

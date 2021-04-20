@@ -1,0 +1,36 @@
+<script>
+    document.addEventListener('DOMContentLoaded', function(event) {
+        $(".ck-places").change(function(){
+            var data = [];
+            $('.ck-places:checked').each(function(){
+                data.push($(this).val());
+            });
+            $.request('onChangePlace', {
+                data: {places: data},
+                success: function(d) {
+                    if (!d.result) {
+                        $('#tour-area').html("");
+                    }
+                    $('#tour-area').html(d.result);
+                }
+            })
+        });
+
+        $(document).on('click', '.pagination li span', function(){
+            var nextPage = $(this).data('page');
+            var data = [];            
+            $('.ck-places:checked').each(function(){
+                data.push($(this).val());
+            });
+            $.request('onChangePage', {
+                data: {
+                    places: data,
+                    nextPage: nextPage
+                },
+                success: function(d) {
+                    $('#tour-area').html(d.result);
+                }
+            })
+        })
+    })
+</script>

@@ -1,0 +1,10 @@
+name: Slide
+form: $/travel/slide/models/slide/fields.yaml
+modelClass: Travel\Slide\Models\Slide
+defaultRedirect: travel/slide/slide
+create:
+    redirect: 'travel/slide/slide/update/:id'
+    redirectClose: travel/slide/slide
+update:
+    redirect: travel/slide/slide
+    redirectClose: travel/slide/slide

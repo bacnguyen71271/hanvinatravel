@@ -1,0 +1,15 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    name:
+        label: Tên
+        span: left
+    category_id:
+        label: Thể loại
+        span: right
+        type: dropdown
+        options:
+            3: Tour
+            4: Combo Tour

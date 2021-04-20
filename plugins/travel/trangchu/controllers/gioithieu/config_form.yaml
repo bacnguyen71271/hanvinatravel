@@ -1,0 +1,10 @@
+name: Gioithieu
+form: $/travel/trangchu/models/gioithieu/fields.yaml
+modelClass: Travel\Trangchu\Models\Gioithieu
+defaultRedirect: travel/trangchu/gioithieu
+create:
+    redirect: 'travel/trangchu/gioithieu/update/:id'
+    redirectClose: travel/trangchu/gioithieu
+update:
+    redirect: travel/trangchu/gioithieu
+    redirectClose: travel/trangchu/gioithieu

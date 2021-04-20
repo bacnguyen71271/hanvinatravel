@@ -1,0 +1,17 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table travel_trangchu_'
+    - builder_table_create_travel_trangchu_.php
+1.0.3:
+    - 'Created table travel_trangchu_about'
+    - builder_table_create_travel_trangchu_about.php
+1.0.6:
+    - 'Created table travel_trangchu_setting'
+    - builder_table_create_travel_trangchu_setting.php
+1.0.7:
+    - 'Updated table travel_trangchu_about'
+    - builder_table_update_travel_trangchu_about.php
+1.0.8:
+    - 'Updated table travel_trangchu_setting'
+    - builder_table_update_travel_trangchu_setting_3.php

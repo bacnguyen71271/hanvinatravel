@@ -1,0 +1,7 @@
+columns:
+    title:
+        label: 'Tiêu đề'
+        type: text
+    content:
+        label: 'Nội dung'
+        type: text

@@ -1,0 +1,63 @@
+﻿<!-- Destinations -->
+<section class="destinations destination-padding">
+    <div class="container">
+                <div class="aside-item">
+                    <i class="fa fa-search icon"></i>
+                    <div class="aside-title">
+                        <span>ĐỊA DANH</span>
+                    </div>
+                    <div class="aside-content">
+                        <ul>
+                            {% for place in __SELF__.places %}
+                            <li class="filter-item filter-item--check-box">
+                                <label class="checkbox_item theme_blue">
+                                    <span>{{place.name}}</span>
+                                    <input type="checkbox" class="ck-places" name="places[{{place.id}}]" value="{{place.id}}">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+        <div class="row mix asia" style="position: relative;">     
+           
+            <div class="col-md-12" id="tour-area">
+                {% for post in __SELF__.posts %}
+                <div class="col-md-4 col-sm-6 category-tour">
+                    <div class="package-item">
+                        <div class="package-image">
+                            <img height="270px"  src="{{post.image | media}}" alt="Image">
+                            
+                        </div>
+                        <div class="package-content">
+                            <h3>{{html_limit(post.title,60)}} ...</h3>
+                            {{html_limit(post.introductory,50)}}
+                            <div class="package-price">
+                                    <p><span>{{post.price|number_format}}</span>VND/KHÁCH </p>
+                                </div>
+                            <div class="package-info">
+                                <a href="{{__SELF__.page|page({'slug': post.slug})}}" class="btn-blue btn-red">Xem chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+                {% if __SELF__.posts.lastPage > 1 %}
+                <div class="col-md-12">
+                    <div class="pagination-content">
+                        <ul class="pagination">
+                            <li class="disabled"><span data-page="{{__SELF__.perPage - 1}}">«</span></li>
+                            {% for i in 1 .. __SELF__.posts.lastPage %}
+                            <li {% if i == __SELF__.perPage %} class="active" {% endif %}><span data-page="{{i}}">{{i}}</span></li>
+                            {% endfor %}
+                            <li><span data-page="{{__SELF__.perPage + 1}}">»</span></li>
+                        </ul>
+                    </div> 
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>
+{% partial __SELF__ ~ '::script' %}

@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Place
+
+# Model Form Field configuration
+form: $/travel/trangchu/models/place/fields.yaml
+
+# Model Class name
+modelClass: Travel\Trangchu\Models\Place
+
+# Default redirect location
+defaultRedirect: travel/trangchu/places
+
+# Create page
+create:
+    title: Create Place
+    redirect: travel/trangchu/places/update/:id
+    redirectClose: travel/trangchu/places
+
+# Update page
+update:
+    title: Edit Place
+    redirect: travel/trangchu/places
+    redirectClose: travel/trangchu/places
+
+# Preview page
+preview:
+    title: Preview Place

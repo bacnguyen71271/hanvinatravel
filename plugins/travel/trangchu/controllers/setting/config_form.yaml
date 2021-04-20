@@ -1,0 +1,10 @@
+name: Setting
+form: $/travel/trangchu/models/setting/fields.yaml
+modelClass: Travel\Trangchu\Models\Setting
+defaultRedirect: travel/trangchu/setting
+create:
+    redirect: 'travel/trangchu/setting/update/:id'
+    redirectClose: travel/trangchu/setting
+update:
+    redirect: travel/trangchu/setting
+    redirectClose: travel/trangchu/setting

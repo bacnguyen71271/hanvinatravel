@@ -1,0 +1,11 @@
+plugin:
+    name: 'travel.trangchu::lang.plugin.name'
+    description: 'travel.trangchu::lang.plugin.description'
+    author: Travel
+    icon: oc-icon-home
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'Trang chủ'
+        url: travel/trangchu/gioithieu
+        icon: icon-home

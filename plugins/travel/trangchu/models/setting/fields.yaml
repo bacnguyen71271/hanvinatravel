@@ -1,0 +1,75 @@
+fields:
+    name:
+        label: Name
+        span: auto
+        type: text
+    phone:
+        label: 'Số Di Động'
+        span: auto
+        type: text
+    homephone:
+        label: 'Số Điện Thoại Bàn'
+        span: auto
+        type: text
+    email:
+        label: Email
+        span: auto
+        type: text
+    address:
+        label: 'Địa chỉ'
+        span: auto
+        type: text
+    info:
+        label: 'Giới Thiệu'
+        span: auto
+        type: text
+    highlight:
+        label: 'Text Chân Trang'
+        span: auto
+        type: text
+    facebook:
+        label: Facebook
+        span: auto
+        type: text
+    instagram:
+        label: Instagram
+        span: auto
+        type: text
+    youtube:
+        label: Youtube
+        span: auto
+        type: text
+    highlight_combo:
+        label: 'Text Combo Trang Chủ'
+        span: auto
+        type: text
+    highlight_tour:
+        label: 'Text Tour Trang chủ'
+        span: auto
+        type: text
+    highlight_post:
+        label: 'Text Trang chi tiết'
+        span: auto
+        type: text
+    description_seo:
+        label: 'Mô Tả Seo'
+        span: auto
+        type: text
+    title_seo:
+        label: 'Title Seo'
+        span: auto
+        type: text
+    keyword_seo:
+        label: Keyword_seo
+        span: auto
+        type: text
+    logo:
+        label: Logo
+        mode: image
+        span: auto
+        type: mediafinder
+    image_share:
+        label: 'Image Seo'
+        mode: image
+        span: auto
+        type: mediafinder

@@ -1,0 +1,12 @@
+list: $/travel/trangchu/models/gioithieu/columns.yaml
+modelClass: Travel\Trangchu\Models\Gioithieu
+title: Gioithieu
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'travel/trangchu/gioithieu/update/:id'
