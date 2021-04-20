@@ -1,0 +1,7 @@
+1612075944a:1:{s:20:"details-customer.htm";a:10:{s:8:"fileName";s:20:"details-customer.htm";s:7:"content";s:145:"title = "Ảnh Khách hàng" 
+url = "/chi-tiet-khach-hang/:slug" 
+layout = "home" 
+is_hidden = 0 
+[postcustomer]
+==
+{% component 'postcustomer'%}";s:5:"mtime";i:1596016700;s:6:"markup";s:29:"{% component 'postcustomer'%}";s:4:"code";N;s:5:"title";s:18:"Ảnh Khách hàng";s:3:"url";s:26:"/chi-tiet-khach-hang/:slug";s:6:"layout";s:4:"home";s:9:"is_hidden";s:1:"0";s:12:"postcustomer";a:0:{}}}

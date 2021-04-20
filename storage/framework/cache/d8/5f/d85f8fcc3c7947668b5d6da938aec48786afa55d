@@ -1,0 +1,8 @@
+1612075944a:1:{s:12:"customer.htm";a:10:{s:8:"fileName";s:12:"customer.htm";s:7:"content";s:113:"title = "Khách hàng"
+url = "/khach-hang"
+layout = "home"
+is_hidden = 0
+[customer]
+
+==
+{% component 'customer'%}";s:5:"mtime";i:1596016700;s:6:"markup";s:25:"{% component 'customer'%}";s:4:"code";N;s:5:"title";s:12:"Khách hàng";s:3:"url";s:11:"/khach-hang";s:6:"layout";s:4:"home";s:9:"is_hidden";s:1:"0";s:8:"customer";a:0:{}}}

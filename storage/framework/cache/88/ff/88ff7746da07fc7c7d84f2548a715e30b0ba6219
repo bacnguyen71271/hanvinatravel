@@ -1,0 +1,154 @@
+1612075944a:1:{s:8:"home.htm";a:9:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:3835:"﻿description = "Trang chủ"
+[contact]
+[news]
+[setting]
+==
+<!DOCTYPE html><meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zxx">
+
+<head>
+
+   <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="robots" content="index, follow"/>
+    <link rel="canonical" href="{{ this.page.canonical ? this.page.canonical : url_current() }}"/>
+    <!-- for Google -->
+    <title>{{ this.page.title ? this.page.title : setting.title_seo }}</title>
+    <meta name="description" content="{{ this.page.meta_description ? this.page.meta_description : setting.description_seo }}">
+    <meta name="keywords" content="{{ this.page.meta_keyword ? this.page.meta_keyword : setting.keyword_seo }}">
+    <!-- for Facebook -->
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="{{ this.page.title ? this.page.title : setting.title_seo }}"/>
+    <meta property="og:description" content="{{ this.page.meta_description ? this.page.meta_description : setting.description_seo }}"/>
+    <meta property="og:site_name" content="{{ setting.name }}"/>
+    <meta property="og:image" content="{{ (this.page.meta_image ? this.page.meta_image : setting.image_share) | media}}"/>
+    <meta property="og:url" content="{{ this.page.canonical ? this.page.canonical : url_current() }}"/>
+    <meta property="og:locale" content="vi_VN">
+    <!-- Favicon -->
+  <!-- Bootstrap core CSS -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ 'assets/css/bootstrap.min.css' | theme }}">
+    <link rel="stylesheet" href="{{ 'assets/css/blog.css?v=1' | theme }}">
+    <link rel="stylesheet" href="{{ 'assets/css/style.css' | theme }}">
+    <link rel="stylesheet" href="{{ 'assets/css/flaticon.css' | theme }}">
+    <link rel="stylesheet" href="{{ 'assets/css/plugin.css' | theme }}">
+    <link rel="stylesheet" href="{{ 'assets/css/font-awesome.min.css' | theme }}">
+    <link rel="stylesheet" href="{{ 'assets/css/UniSansHeavy.otf' | theme }}">
+    <link rel="stylesheet" href="{{ 'assets/css/UniSansHeavyItalic.otf' | theme }}">
+    <link rel="stylesheet" href="{{ 'assets/css/UniSansThin.otf' | theme }}">
+    <link rel="stylesheet" href="{{ 'assets/css/UniSansThinItalic.otf' | theme }}">
+    <link rel="stylesheet" href="{{ 'assets/css/pubweb.css' | theme }}">
+    <link rel="shortcut icon" href="{{ 'assets/image/hanvina.png' | theme }}">
+
+        {% styles %}
+</head>
+<body>
+
+    <header id="layout-header">
+        {% partial 'site/header' %}
+    </header>
+    <nav id="layout-menu">
+       {% partial 'site/menu' %}
+    </nav>
+    <!-- Content -->
+        {% page %}
+
+    <!-- Footer -->
+    <footer id="layout-footer">
+        {% partial 'site/footer' %}
+    </footer>
+    
+     {% partial 'site/back-to-top' %}
+
+    <!-- *Scripts* -->
+    <script src="{{'assets/js/jquery.min.js'| theme}}"></script>
+    <script src="{{'assets/js/bootstrap.min.js'| theme}}"></script>
+    <script src="{{'assets/js/plugin.js'| theme}}"></script>
+    <script src="{{'assets/js/main.js'| theme}}"></script>
+    <script src="{{'assets/js/main-1.js'| theme}}"></script>
+    <script src="{{'assets/js/custom-countdown.js'| theme}}"></script>
+    <script src="{{'assets/js/tour_detail.js'| theme}}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.14.0/jquery.validate.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+    <script src="{{'assets/js/main.js'|theme }}" ></script>
+<script src="{{'assets/js/contact.js'|theme }}"></script>
+{% framework extras %}
+{% scripts %}
+</body>
+</html>";s:5:"mtime";i:1596016700;s:6:"markup";s:3774:"<!DOCTYPE html><meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zxx">
+
+<head>
+
+   <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="robots" content="index, follow"/>
+    <link rel="canonical" href="{{ this.page.canonical ? this.page.canonical : url_current() }}"/>
+    <!-- for Google -->
+    <title>{{ this.page.title ? this.page.title : setting.title_seo }}</title>
+    <meta name="description" content="{{ this.page.meta_description ? this.page.meta_description : setting.description_seo }}">
+    <meta name="keywords" content="{{ this.page.meta_keyword ? this.page.meta_keyword : setting.keyword_seo }}">
+    <!-- for Facebook -->
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="{{ this.page.title ? this.page.title : setting.title_seo }}"/>
+    <meta property="og:description" content="{{ this.page.meta_description ? this.page.meta_description : setting.description_seo }}"/>
+    <meta property="og:site_name" content="{{ setting.name }}"/>
+    <meta property="og:image" content="{{ (this.page.meta_image ? this.page.meta_image : setting.image_share) | media}}"/>
+    <meta property="og:url" content="{{ this.page.canonical ? this.page.canonical : url_current() }}"/>
+    <meta property="og:locale" content="vi_VN">
+    <!-- Favicon -->
+  <!-- Bootstrap core CSS -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ 'assets/css/bootstrap.min.css' | theme }}">
+    <link rel="stylesheet" href="{{ 'assets/css/blog.css?v=1' | theme }}">
+    <link rel="stylesheet" href="{{ 'assets/css/style.css' | theme }}">
+    <link rel="stylesheet" href="{{ 'assets/css/flaticon.css' | theme }}">
+    <link rel="stylesheet" href="{{ 'assets/css/plugin.css' | theme }}">
+    <link rel="stylesheet" href="{{ 'assets/css/font-awesome.min.css' | theme }}">
+    <link rel="stylesheet" href="{{ 'assets/css/UniSansHeavy.otf' | theme }}">
+    <link rel="stylesheet" href="{{ 'assets/css/UniSansHeavyItalic.otf' | theme }}">
+    <link rel="stylesheet" href="{{ 'assets/css/UniSansThin.otf' | theme }}">
+    <link rel="stylesheet" href="{{ 'assets/css/UniSansThinItalic.otf' | theme }}">
+    <link rel="stylesheet" href="{{ 'assets/css/pubweb.css' | theme }}">
+    <link rel="shortcut icon" href="{{ 'assets/image/hanvina.png' | theme }}">
+
+        {% styles %}
+</head>
+<body>
+
+    <header id="layout-header">
+        {% partial 'site/header' %}
+    </header>
+    <nav id="layout-menu">
+       {% partial 'site/menu' %}
+    </nav>
+    <!-- Content -->
+        {% page %}
+
+    <!-- Footer -->
+    <footer id="layout-footer">
+        {% partial 'site/footer' %}
+    </footer>
+    
+     {% partial 'site/back-to-top' %}
+
+    <!-- *Scripts* -->
+    <script src="{{'assets/js/jquery.min.js'| theme}}"></script>
+    <script src="{{'assets/js/bootstrap.min.js'| theme}}"></script>
+    <script src="{{'assets/js/plugin.js'| theme}}"></script>
+    <script src="{{'assets/js/main.js'| theme}}"></script>
+    <script src="{{'assets/js/main-1.js'| theme}}"></script>
+    <script src="{{'assets/js/custom-countdown.js'| theme}}"></script>
+    <script src="{{'assets/js/tour_detail.js'| theme}}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.14.0/jquery.validate.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+    <script src="{{'assets/js/main.js'|theme }}" ></script>
+<script src="{{'assets/js/contact.js'|theme }}"></script>
+{% framework extras %}
+{% scripts %}
+</body>
+</html>";s:4:"code";N;s:11:"description";s:11:"Trang chủ";s:7:"contact";a:0:{}s:4:"news";a:0:{}s:7:"setting";a:0:{}}}

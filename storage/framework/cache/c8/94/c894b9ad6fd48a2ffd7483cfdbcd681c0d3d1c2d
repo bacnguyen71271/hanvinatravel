@@ -1,0 +1,8 @@
+1612075944a:1:{s:16:"details-tour.htm";a:10:{s:8:"fileName";s:16:"details-tour.htm";s:7:"content";s:138:"title = "bài tiết Combo du lịch"
+url = "/chi-tiet-tour-du-lich/:slug"
+layout = "home"
+is_hidden = 0
+
+[tour]
+==
+{% component 'tour' %}";s:5:"mtime";i:1596016700;s:6:"markup";s:22:"{% component 'tour' %}";s:4:"code";N;s:5:"title";s:27:"bài tiết Combo du lịch";s:3:"url";s:28:"/chi-tiet-tour-du-lich/:slug";s:6:"layout";s:4:"home";s:9:"is_hidden";s:1:"0";s:4:"tour";a:0:{}}}

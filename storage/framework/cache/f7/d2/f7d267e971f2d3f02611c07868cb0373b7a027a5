@@ -1,0 +1,7 @@
+1612075944a:1:{s:8:"news.htm";a:9:{s:8:"fileName";s:8:"news.htm";s:7:"content";s:92:"title = "Tin tức"
+url = "/tin-tuc"
+layout = "home"
+is_hidden = 0
+
+==
+{% component 'news'%}";s:5:"mtime";i:1596016699;s:6:"markup";s:21:"{% component 'news'%}";s:4:"code";N;s:5:"title";s:9:"Tin tức";s:3:"url";s:8:"/tin-tuc";s:6:"layout";s:4:"home";s:9:"is_hidden";s:1:"0";}}

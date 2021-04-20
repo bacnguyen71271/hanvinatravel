@@ -6,6 +6,6 @@
 composer.lock
 /config/app.php
 /config/database.php
-/storage/
+#/storage/
 /vendor/
 .phpintel/

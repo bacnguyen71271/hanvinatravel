@@ -1,0 +1,35 @@
+1612027904a:1:{s:20:"site/recent-post.htm";a:5:{s:8:"fileName";s:20:"site/recent-post.htm";s:7:"content";s:1051:"<div class="recent-post clearfix sidebar-item">
+                            <div class="detail-title">
+                                <h3>Tin mới nhất</h3>
+                            </div>
+                            {% for recent in postfornews %}
+                            <div class="recent-item">
+                                <div class="recent-image">
+                                    <img src="{{recent.image | media}}" alt="Image">
+                                </div>
+                                <div class="recent-content">
+                                    <h4><a href="{{ 'posts' | page({slug:recent.slug}) }}">{{html_limit(recent.title,40)}}</a></h4>
+                                    <div class="author-detail">
+                                        <p><i class="fa fa-clock-o"></i> {{ recent.created_at|date('d/m') }} </p>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endfor%}
+                        </div>";s:5:"mtime";i:1596016711;s:6:"markup";s:1051:"<div class="recent-post clearfix sidebar-item">
+                            <div class="detail-title">
+                                <h3>Tin mới nhất</h3>
+                            </div>
+                            {% for recent in postfornews %}
+                            <div class="recent-item">
+                                <div class="recent-image">
+                                    <img src="{{recent.image | media}}" alt="Image">
+                                </div>
+                                <div class="recent-content">
+                                    <h4><a href="{{ 'posts' | page({slug:recent.slug}) }}">{{html_limit(recent.title,40)}}</a></h4>
+                                    <div class="author-detail">
+                                        <p><i class="fa fa-clock-o"></i> {{ recent.created_at|date('d/m') }} </p>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endfor%}
+                        </div>";s:4:"code";N;}}

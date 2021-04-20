@@ -1,0 +1,29 @@
+1612027904a:1:{s:21:"site/popular-post.htm";a:5:{s:8:"fileName";s:21:"site/popular-post.htm";s:7:"content";s:906:"<div class="popular-post sidebar-item">
+                            <div class="detail-title">
+                                <h3>Tin nổi bật</h3>
+                            </div>
+                            {% for key,popular in listrecents %}
+                            <div class="popular-item">
+                                <div class="popular-content">
+                                    <span class="item-no">{{key + 1}}</span>
+                                    <h4><a href="{{ 'posts' | page({slug:popular.slug}) }}">{{html_limit(popular.title,40)}}</a></h4> 
+                                    <div class="author-detail"><p><i class="fa fa-clock-o"></i>{{ popular.created_at|date('d/m') }} </p>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>";s:5:"mtime";i:1596016711;s:6:"markup";s:906:"<div class="popular-post sidebar-item">
+                            <div class="detail-title">
+                                <h3>Tin nổi bật</h3>
+                            </div>
+                            {% for key,popular in listrecents %}
+                            <div class="popular-item">
+                                <div class="popular-content">
+                                    <span class="item-no">{{key + 1}}</span>
+                                    <h4><a href="{{ 'posts' | page({slug:popular.slug}) }}">{{html_limit(popular.title,40)}}</a></h4> 
+                                    <div class="author-detail"><p><i class="fa fa-clock-o"></i>{{ popular.created_at|date('d/m') }} </p>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>";s:4:"code";N;}}

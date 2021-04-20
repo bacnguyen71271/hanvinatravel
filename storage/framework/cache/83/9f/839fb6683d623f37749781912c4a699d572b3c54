@@ -1,0 +1,78 @@
+1612075944a:1:{s:14:"combo-tour.htm";a:10:{s:8:"fileName";s:14:"combo-tour.htm";s:7:"content";s:1051:"title = "Combo Du lịch"
+url = "/combo-du-lich/:category-tour?"
+layout = "home"
+is_hidden = 0
+
+[tours]
+==
+<!-- Header -->
+
+    <!-- Header Ends -->
+
+    <!-- Navigation Bar -->
+
+    <!-- Navigation Bar Ends -->
+
+    <!-- Breadcrumb -->  
+    <section class="breadcrumb-outer text-center">
+        <div class="container">
+            <div class="breadcrumb-content">
+                <h1>COMBO DU LỊCH</h1>
+                <nav aria-label="breadcrumb">
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a href=" {{'homepage' | page}}">Trang Chủ</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Combo Du lịch</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="section-overlay"></div>
+    </section>
+    <!-- BreadCrumb Ends -->
+
+    {% component 'tours' %}
+    <!-- Destination Ends -->
+
+
+    <!-- Footer -->
+  
+    <!-- Footer Ends -->  
+
+    <!-- Back to top start -->
+   
+    <!-- Back to top ends -->";s:5:"mtime";i:1596016699;s:6:"markup";s:944:"<!-- Header -->
+
+    <!-- Header Ends -->
+
+    <!-- Navigation Bar -->
+
+    <!-- Navigation Bar Ends -->
+
+    <!-- Breadcrumb -->  
+    <section class="breadcrumb-outer text-center">
+        <div class="container">
+            <div class="breadcrumb-content">
+                <h1>COMBO DU LỊCH</h1>
+                <nav aria-label="breadcrumb">
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a href=" {{'homepage' | page}}">Trang Chủ</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Combo Du lịch</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="section-overlay"></div>
+    </section>
+    <!-- BreadCrumb Ends -->
+
+    {% component 'tours' %}
+    <!-- Destination Ends -->
+
+
+    <!-- Footer -->
+  
+    <!-- Footer Ends -->  
+
+    <!-- Back to top start -->
+   
+    <!-- Back to top ends -->";s:4:"code";N;s:5:"title";s:15:"Combo Du lịch";s:3:"url";s:30:"/combo-du-lich/:category-tour?";s:6:"layout";s:4:"home";s:9:"is_hidden";s:1:"0";s:5:"tours";a:0:{}}}

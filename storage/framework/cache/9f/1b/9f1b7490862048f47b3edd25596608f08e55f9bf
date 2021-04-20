@@ -1,0 +1,526 @@
+1612075944a:1:{s:14:"image-tour.htm";a:9:{s:8:"fileName";s:14:"image-tour.htm";s:7:"content";s:17559:"title = "Khách hàng"
+url = "/khach-hang"
+layout = "home"
+is_hidden = 0
+==
+<!-- Header -->
+
+    <!-- Header Ends -->
+
+    <!-- Navigation Bar -->
+ 
+    <!-- Navigation Bar Ends -->
+
+    <!-- Breadcrumb -->
+    <section class="breadcrumb-outer text-center">
+        <div class="container">
+            <div class="breadcrumb-content">
+                <h2>Khách hàng</h2>
+                <nav aria-label="breadcrumb">
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">Blog</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Planning for ...</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="section-overlay"></div>
+    </section>
+    <!-- BreadCrumb Ends -->
+
+    <!-- Detail -->
+    <section class="item-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="item-wrapper">
+                        <div class="cover-content">
+                            <div class="author-detail">
+                                <a href="#" class="tag tag-blue">#Travel</a>
+                                <a href="#" class="tag tag-blue"><i class="fa fa-eye"></i> 2500</a>
+                            </div>
+                            <h2>Planning for the perfect family trip</h2>
+                            <div class="author-detail">
+                                <span><a href="#"><i class="fa fa-clock-o"></i> Posted On : 12 May</a></span>
+                                <span class="blog-date-icon">
+                                    <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 24</a>
+                                    <a href="#"><i class="fa fa-heart" aria-hidden="true"></i> 5</a>
+                                    <a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> 0</a>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="cover-image">
+                            <img src="images/breadcrumb.jpg" alt="Image">
+                        </div>
+                        <div class="item-detail">
+                            <p class="articlepara">Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line. Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+                            <div class="detail-image">
+                                <img src="images/adbg.jpg" alt="Image">
+                            </div>
+                            <p class="articlepara">Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line. Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+                        </div>
+                        <blockquote>
+                            <p>Was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                            <div class="sectionoverlay"></div>
+                        </blockquote>
+                        <div class="share-buttons">
+                            <a href="#" class="btn-large btn-facebook"><i class="fa fa-facebook" aria-hidden="true"></i> Share on Facebook</a>
+                            <p> <span>350</span> shares</p>
+                            <a href="#" class="btn-large btn-twitter"><i class="fa fa-twitter" aria-hidden="true"></i> Share on Twitter</a>
+                        </div>
+                        <div class="item-tags">
+                            <a href="#" class="tag-blue tag">#Sports</a>
+                            <a href="#" class="tag tag-blue">#World Cup</a>
+                            <a href="#" class="tag tag-blue">#Football</a>
+                            <a href="#" class="tag tag-blue">#Qatar</a>
+                        </div>
+                        <div class="related-posts">
+                            <div class="row">
+                                <div class="col-sm-6 col-xs-12">
+                                    <div class="blog-item">
+                                        <div class="blog-image">
+                                            <img src="images/blog4.jpg" alt="Image">
+                                        </div>
+                                        <div class="blog-content">
+                                            <div class="blog-date"><p><i class="fa fa-clock-o"></i> Posted On : 12 May</p></div>
+                                            <h3><a href="blog-detail.html">What happened during my first trip alone</a></h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Duis aute irure dolor in reprehenderit.</p>
+                                            <div class="blog-author">
+                                                <div class="pull-left">
+                                                    <p><a href="#"><i class="fa fa-user-o" aria-hidden="true"></i> Jack Richard</a></p>
+                                                </div>
+                                                <div class="pull-right blog-date-icon">
+                                                    <p><i class="fa fa-eye" aria-hidden="true"></i> 24</p>
+                                                    <p><i class="fa fa-heart" aria-hidden="true"></i> 5</p>
+                                                    <p><i class="fa fa-comment-o" aria-hidden="true"></i> 0</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-xs-12">
+                                    <div class="blog-item">
+                                        <div class="blog-image">
+                                            <img src="images/blog5.jpg" alt="Image">
+                                        </div>
+                                        <div class="blog-content">
+                                            <div class="blog-date"><p><i class="fa fa-clock-o"></i> Posted On : 12 May</p></div>
+                                            <h3><a href="blog-detail.html">remembering the road i went through</a></h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Duis aute irure dolor in reprehenderit.</p>
+                                            <div class="blog-author">
+                                                <div class="pull-left">
+                                                    <p><a href="#"><i class="fa fa-user-o" aria-hidden="true"></i> Jack Richard</a></p>
+                                                </div>
+                                                <div class="pull-right blog-date-icon">
+                                                    <p><i class="fa fa-eye" aria-hidden="true"></i> 24</p>
+                                                    <p><i class="fa fa-heart" aria-hidden="true"></i> 5</p>
+                                                    <p><i class="fa fa-comment-o" aria-hidden="true"></i> 0</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="sidebar-sticky" class="col-md-4 col-sm-12">
+                    <aside class="detail-sidebar sidebar-wrapper">
+                        <div class="item-sidebar">
+                            <div class="recent-post clearfix sidebar-item">
+                                <div class="detail-title">
+                                    <h3>Recent Posts</h3>
+                                </div>
+                                <div class="recent-item">
+                                    <div class="recent-image">
+                                        <img src="images/profile1.jpg" alt="Image">
+                                    </div>
+                                    <div class="recent-content">
+                                        <a href="#" class="tag tag-blue">#News</a>
+                                        <h4><a href="#">10 Tips you should follow</a></h4>
+                                        <div class="author-detail">
+                                            <p><a href="#"><i class="fa fa-user-o"></i> John Doe</a></p>
+                                            <p><i class="fa fa-clock-o"></i> 12 May</p>
+                                        </div>
+                                    </div>
+                                </div>  
+                                <div class="recent-item">
+                                    <div class="recent-image">
+                                        <img src="images/recent2.jpg" alt="Image">
+                                    </div>
+                                    <div class="recent-content">
+                                        <a href="#" class="tag tag-gold">#News</a>
+                                        <h4><a href="#">Must have gadgets in life</a></h4>
+                                        <div class="author-detail">
+                                            <p><a href="#"><i class="fa fa-user-o"></i> John Doe</a></p>
+                                            <p><i class="fa fa-clock-o"></i> 12 May</p>
+                                        </div>
+                                    </div>
+                                </div> 
+                                <div class="recent-item">
+                                    <div class="recent-image">
+                                        <img src="images/recent1.jpg" alt="Image">
+                                    </div>
+                                    <div class="recent-content">
+                                        <a href="#" class="tag tag-green">#Health</a>
+                                        <h4><a href="#">Selena, The talk of town</a></h4>
+                                        <div class="author-detail">
+                                            <p><a href="#"><i class="fa fa-user-o"></i> John Doe</a></p>
+                                            <p><i class="fa fa-clock-o"></i> 12 May</p>
+                                        </div>
+                                    </div>
+                                </div>   
+                                <div class="recent-item">
+                                    <div class="recent-image">
+                                        <img src="images/recent2.jpg" alt="Image">
+                                    </div>
+                                    <div class="recent-content">
+                                        <a href="#" class="tag tag-blue">#News</a>
+                                        <h4><a href="#">Why Zlatan left United?</a></h4>
+                                        <div class="author-detail">
+                                            <p><a href="#"><i class="fa fa-user-o"></i> John Doe</a></p>
+                                            <p><i class="fa fa-clock-o"></i> 12 May</p>
+                                        </div>
+                                    </div>
+                                </div>                            
+                            </div>
+                            <div class="ad1 sidebar-item">
+                                <div class="detail-title">
+                                    <h3>Popular Tags</h3>
+                                </div>
+                                <div class="popular-tag-content">
+                                    <ul>
+                                        <li><a href="#">Flights</a></li>
+                                        <li><a href="#">Trek</a></li>
+                                        <li><a href="#">Travelling</a></li>
+                                        <li><a href="#">Cruises</a></li>
+                                        <li><a href="#">Sale</a></li>
+                                        <li><a href="#">Hotels</a></li>
+                                        <li><a href="#">Restaurants</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="popular-post sidebar-item">
+                                <div class="detail-title">
+                                    <h3>Popular Posts</h3>
+                                </div>
+                                <div class="popular-item">
+                                    <div class="popular-content">
+                                        <span class="item-no">01</span>
+                                        <h4><a href="#">7 reasons Hollywood doesn’t make romantic comedies anymore</a></h4>
+                                        <div class="author-detail">
+                                            <p><a href="#"><i class="fa fa-user-o"></i> John Doe</a></p>
+                                            <p><i class="fa fa-clock-o"></i> 12 May</p>
+                                            <p><a href="#"><i class="fa fa-comment-o"></i> 3 comments</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="popular-item">
+                                    <div class="popular-content">
+                                        <span class="item-no">02</span>
+                                        <h4><a href="#">Watch: the 3 best performances of the 2018 VMAs</a></h4>
+                                        <div class="author-detail">
+                                            <p><a href="#"><i class="fa fa-user-o"></i> John Doe</a></p>
+                                            <p><i class="fa fa-clock-o"></i> 12 May</p>
+                                            <p><a href="#"><i class="fa fa-comment-o"></i> 3 comments</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="popular-item">
+                                    <div class="popular-content">
+                                        <span class="item-no">03</span>
+                                        <h4><a href="#">Why conservatives love to hate Alexandria?</a></h4>
+                                        <div class="author-detail">
+                                            <p><a href="#"><i class="fa fa-user-o"></i> John Doe</a></p>
+                                            <p><i class="fa fa-clock-o"></i> 12 May</p>
+                                            <p><a href="#"><i class="fa fa-comment-o"></i> 3 comments</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="popular-item">
+                                    <div class="popular-content">
+                                        <span class="item-no">04</span>
+                                        <h4><a href="#">10 Tips you should follow before eating street foods</a></h4>
+                                        <div class="author-detail">
+                                            <p><a href="#"><i class="fa fa-user-o"></i> John Doe</a></p>
+                                            <p><i class="fa fa-clock-o"></i> 12 May</p>
+                                            <p><a href="#"><i class="fa fa-comment-o"></i> 3 comments</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+ 
+    <!-- Footer Ends -->  
+
+    <!-- Back to top start -->
+ 
+    <!-- Back to top ends -->";s:5:"mtime";i:1596016699;s:6:"markup";s:17483:"<!-- Header -->
+
+    <!-- Header Ends -->
+
+    <!-- Navigation Bar -->
+ 
+    <!-- Navigation Bar Ends -->
+
+    <!-- Breadcrumb -->
+    <section class="breadcrumb-outer text-center">
+        <div class="container">
+            <div class="breadcrumb-content">
+                <h2>Khách hàng</h2>
+                <nav aria-label="breadcrumb">
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">Blog</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Planning for ...</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="section-overlay"></div>
+    </section>
+    <!-- BreadCrumb Ends -->
+
+    <!-- Detail -->
+    <section class="item-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="item-wrapper">
+                        <div class="cover-content">
+                            <div class="author-detail">
+                                <a href="#" class="tag tag-blue">#Travel</a>
+                                <a href="#" class="tag tag-blue"><i class="fa fa-eye"></i> 2500</a>
+                            </div>
+                            <h2>Planning for the perfect family trip</h2>
+                            <div class="author-detail">
+                                <span><a href="#"><i class="fa fa-clock-o"></i> Posted On : 12 May</a></span>
+                                <span class="blog-date-icon">
+                                    <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 24</a>
+                                    <a href="#"><i class="fa fa-heart" aria-hidden="true"></i> 5</a>
+                                    <a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> 0</a>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="cover-image">
+                            <img src="images/breadcrumb.jpg" alt="Image">
+                        </div>
+                        <div class="item-detail">
+                            <p class="articlepara">Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line. Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+                            <div class="detail-image">
+                                <img src="images/adbg.jpg" alt="Image">
+                            </div>
+                            <p class="articlepara">Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line. Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+                        </div>
+                        <blockquote>
+                            <p>Was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                            <div class="sectionoverlay"></div>
+                        </blockquote>
+                        <div class="share-buttons">
+                            <a href="#" class="btn-large btn-facebook"><i class="fa fa-facebook" aria-hidden="true"></i> Share on Facebook</a>
+                            <p> <span>350</span> shares</p>
+                            <a href="#" class="btn-large btn-twitter"><i class="fa fa-twitter" aria-hidden="true"></i> Share on Twitter</a>
+                        </div>
+                        <div class="item-tags">
+                            <a href="#" class="tag-blue tag">#Sports</a>
+                            <a href="#" class="tag tag-blue">#World Cup</a>
+                            <a href="#" class="tag tag-blue">#Football</a>
+                            <a href="#" class="tag tag-blue">#Qatar</a>
+                        </div>
+                        <div class="related-posts">
+                            <div class="row">
+                                <div class="col-sm-6 col-xs-12">
+                                    <div class="blog-item">
+                                        <div class="blog-image">
+                                            <img src="images/blog4.jpg" alt="Image">
+                                        </div>
+                                        <div class="blog-content">
+                                            <div class="blog-date"><p><i class="fa fa-clock-o"></i> Posted On : 12 May</p></div>
+                                            <h3><a href="blog-detail.html">What happened during my first trip alone</a></h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Duis aute irure dolor in reprehenderit.</p>
+                                            <div class="blog-author">
+                                                <div class="pull-left">
+                                                    <p><a href="#"><i class="fa fa-user-o" aria-hidden="true"></i> Jack Richard</a></p>
+                                                </div>
+                                                <div class="pull-right blog-date-icon">
+                                                    <p><i class="fa fa-eye" aria-hidden="true"></i> 24</p>
+                                                    <p><i class="fa fa-heart" aria-hidden="true"></i> 5</p>
+                                                    <p><i class="fa fa-comment-o" aria-hidden="true"></i> 0</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-xs-12">
+                                    <div class="blog-item">
+                                        <div class="blog-image">
+                                            <img src="images/blog5.jpg" alt="Image">
+                                        </div>
+                                        <div class="blog-content">
+                                            <div class="blog-date"><p><i class="fa fa-clock-o"></i> Posted On : 12 May</p></div>
+                                            <h3><a href="blog-detail.html">remembering the road i went through</a></h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Duis aute irure dolor in reprehenderit.</p>
+                                            <div class="blog-author">
+                                                <div class="pull-left">
+                                                    <p><a href="#"><i class="fa fa-user-o" aria-hidden="true"></i> Jack Richard</a></p>
+                                                </div>
+                                                <div class="pull-right blog-date-icon">
+                                                    <p><i class="fa fa-eye" aria-hidden="true"></i> 24</p>
+                                                    <p><i class="fa fa-heart" aria-hidden="true"></i> 5</p>
+                                                    <p><i class="fa fa-comment-o" aria-hidden="true"></i> 0</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="sidebar-sticky" class="col-md-4 col-sm-12">
+                    <aside class="detail-sidebar sidebar-wrapper">
+                        <div class="item-sidebar">
+                            <div class="recent-post clearfix sidebar-item">
+                                <div class="detail-title">
+                                    <h3>Recent Posts</h3>
+                                </div>
+                                <div class="recent-item">
+                                    <div class="recent-image">
+                                        <img src="images/profile1.jpg" alt="Image">
+                                    </div>
+                                    <div class="recent-content">
+                                        <a href="#" class="tag tag-blue">#News</a>
+                                        <h4><a href="#">10 Tips you should follow</a></h4>
+                                        <div class="author-detail">
+                                            <p><a href="#"><i class="fa fa-user-o"></i> John Doe</a></p>
+                                            <p><i class="fa fa-clock-o"></i> 12 May</p>
+                                        </div>
+                                    </div>
+                                </div>  
+                                <div class="recent-item">
+                                    <div class="recent-image">
+                                        <img src="images/recent2.jpg" alt="Image">
+                                    </div>
+                                    <div class="recent-content">
+                                        <a href="#" class="tag tag-gold">#News</a>
+                                        <h4><a href="#">Must have gadgets in life</a></h4>
+                                        <div class="author-detail">
+                                            <p><a href="#"><i class="fa fa-user-o"></i> John Doe</a></p>
+                                            <p><i class="fa fa-clock-o"></i> 12 May</p>
+                                        </div>
+                                    </div>
+                                </div> 
+                                <div class="recent-item">
+                                    <div class="recent-image">
+                                        <img src="images/recent1.jpg" alt="Image">
+                                    </div>
+                                    <div class="recent-content">
+                                        <a href="#" class="tag tag-green">#Health</a>
+                                        <h4><a href="#">Selena, The talk of town</a></h4>
+                                        <div class="author-detail">
+                                            <p><a href="#"><i class="fa fa-user-o"></i> John Doe</a></p>
+                                            <p><i class="fa fa-clock-o"></i> 12 May</p>
+                                        </div>
+                                    </div>
+                                </div>   
+                                <div class="recent-item">
+                                    <div class="recent-image">
+                                        <img src="images/recent2.jpg" alt="Image">
+                                    </div>
+                                    <div class="recent-content">
+                                        <a href="#" class="tag tag-blue">#News</a>
+                                        <h4><a href="#">Why Zlatan left United?</a></h4>
+                                        <div class="author-detail">
+                                            <p><a href="#"><i class="fa fa-user-o"></i> John Doe</a></p>
+                                            <p><i class="fa fa-clock-o"></i> 12 May</p>
+                                        </div>
+                                    </div>
+                                </div>                            
+                            </div>
+                            <div class="ad1 sidebar-item">
+                                <div class="detail-title">
+                                    <h3>Popular Tags</h3>
+                                </div>
+                                <div class="popular-tag-content">
+                                    <ul>
+                                        <li><a href="#">Flights</a></li>
+                                        <li><a href="#">Trek</a></li>
+                                        <li><a href="#">Travelling</a></li>
+                                        <li><a href="#">Cruises</a></li>
+                                        <li><a href="#">Sale</a></li>
+                                        <li><a href="#">Hotels</a></li>
+                                        <li><a href="#">Restaurants</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="popular-post sidebar-item">
+                                <div class="detail-title">
+                                    <h3>Popular Posts</h3>
+                                </div>
+                                <div class="popular-item">
+                                    <div class="popular-content">
+                                        <span class="item-no">01</span>
+                                        <h4><a href="#">7 reasons Hollywood doesn’t make romantic comedies anymore</a></h4>
+                                        <div class="author-detail">
+                                            <p><a href="#"><i class="fa fa-user-o"></i> John Doe</a></p>
+                                            <p><i class="fa fa-clock-o"></i> 12 May</p>
+                                            <p><a href="#"><i class="fa fa-comment-o"></i> 3 comments</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="popular-item">
+                                    <div class="popular-content">
+                                        <span class="item-no">02</span>
+                                        <h4><a href="#">Watch: the 3 best performances of the 2018 VMAs</a></h4>
+                                        <div class="author-detail">
+                                            <p><a href="#"><i class="fa fa-user-o"></i> John Doe</a></p>
+                                            <p><i class="fa fa-clock-o"></i> 12 May</p>
+                                            <p><a href="#"><i class="fa fa-comment-o"></i> 3 comments</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="popular-item">
+                                    <div class="popular-content">
+                                        <span class="item-no">03</span>
+                                        <h4><a href="#">Why conservatives love to hate Alexandria?</a></h4>
+                                        <div class="author-detail">
+                                            <p><a href="#"><i class="fa fa-user-o"></i> John Doe</a></p>
+                                            <p><i class="fa fa-clock-o"></i> 12 May</p>
+                                            <p><a href="#"><i class="fa fa-comment-o"></i> 3 comments</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="popular-item">
+                                    <div class="popular-content">
+                                        <span class="item-no">04</span>
+                                        <h4><a href="#">10 Tips you should follow before eating street foods</a></h4>
+                                        <div class="author-detail">
+                                            <p><a href="#"><i class="fa fa-user-o"></i> John Doe</a></p>
+                                            <p><i class="fa fa-clock-o"></i> 12 May</p>
+                                            <p><a href="#"><i class="fa fa-comment-o"></i> 3 comments</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+ 
+    <!-- Footer Ends -->  
+
+    <!-- Back to top start -->
+ 
+    <!-- Back to top ends -->";s:4:"code";N;s:5:"title";s:12:"Khách hàng";s:3:"url";s:11:"/khach-hang";s:6:"layout";s:4:"home";s:9:"is_hidden";s:1:"0";}}
