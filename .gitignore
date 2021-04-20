@@ -4,8 +4,8 @@
 .vscode/
 .idea/
 composer.lock
-/config/app.php
-/config/database.php
+#/config/app.php
+#/config/database.php
 #/storage/
 /vendor/
 .phpintel/
